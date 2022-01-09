@@ -1,5 +1,9 @@
 try {
 
+  $addition_data_log_url="https://<host>/addition-data-log.php"
+  $addition_data_log_user='account'
+  $addition_data_log_pass='8Dvqg'
+  
   $DcName = (Get-ADDomain).pdcemulator
   $Pdce = (Get-AdDomain).PDCEmulator
 
