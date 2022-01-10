@@ -20,7 +20,6 @@ my $log_patch = "/usr/user_account_locked/log/";
 
 
 if ( $ARGV[0] eq 'addition-data-log' ) {
-  #my $new_account_locked_file = '/usr/user_account_locked/test_account_locked_1.txt';
   my $new_account_locked_file = '/tmp/addition-data-log/account_locked.txt';
   if ( ! -f $new_account_locked_file ) {
     print "filename-json-new-error-does-not-exist<p>";
